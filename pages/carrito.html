@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrito - Tienda Online</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Tienda Online</h1>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="profile.html">Perfil</a>
+      <button id="cart-icon" class="cart-icon" aria-label="Ver carrito">
+        🛒 <span id="cart-count" class="cart-count">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <aside id="cart-panel" class="cart-panel">
+    <header class="cart-header">
+      <h2>Tu Carrito</h2>
+      <button id="cart-close" class="cart-close" aria-label="Cerrar carrito">&times;</button>
+    </header>
+    <section id="cart-items" class="cart-items">
+      <!-- Productos añadidos se mostrarán aquí con JS -->
+    </section>
+    <footer class="cart-footer">
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button id="checkout-btn" class="btn-checkout" disabled>Proceder al pago</button>
+    </footer>
+  </aside>
+
+  <main class="main-content">
+    <h2>Productos Disponibles</h2>
+    <section class="product-list">
+
+      <!-- Producto 1 -->
+      <article class="product-card">
+        <img src="../imagenes/camiseta elefante.jpeg" alt="Camiseta Elefante" class="product-img" />
+        <h3>Camiseta “Elefantes Unidos”</h3>
+        <p>18.00 €</p>
+        <button class="btn-add-cart" data-id="articulo1">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 2 -->
+      <article class="product-card">
+        <img src="../imagenes/taza de tigre.jpg" alt="Taza Salva a los Tigres" class="product-img" />
+        <h3>Taza “Salva a los Tigres”</h3>
+        <p>12.50 €</p>
+        <button class="btn-add-cart" data-id="articulo2">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 3 -->
+      <article class="product-card">
+        <img src="../imagenes/gorra de oceano.jpg" alt="Gorra Protege los Océanos" class="product-img" />
+        <h3>Gorra “Protege los Océanos”</h3>
+        <p>15.00 €</p>
+        <button class="btn-add-cart" data-id="articulo3">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 4 -->
+      <article class="product-card">
+        <img src="../imagenes/poster de aves.webp" alt="Póster Aves Libres" class="product-img" />
+        <h3>Póster “Aves Libres”</h3>
+        <p>8.00 €</p>
+        <button class="btn-add-cart" data-id="articulo4">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 5 -->
+      <article class="product-card">
+        <img src="../imagenes/bolsa mensaje.jpg" alt="Bolsa Adopta un Árbol" class="product-img" />
+        <h3>Bolsa “Adopta un Árbol”</h3>
+        <p>10.00 €</p>
+        <button class="btn-add-cart" data-id="articulo5">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 6 -->
+      <article class="product-card">
+        <img src="../imagenes/llavero de gato.jpg" alt="Llavero Salva la Fauna" class="product-img" />
+        <h3>Llavero “Salva la Fauna”</h3>
+        <p>5.00 €</p>
+        <button class="btn-add-cart" data-id="articulo6">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 7 -->
+      <article class="product-card">
+        <img src="../imagenes/libreta ecologica.webp" alt="Libreta Bosque Vivo" class="product-img" />
+        <h3>Libreta “Bosque Vivo”</h3>
+        <p>9.00 €</p>
+        <button class="btn-add-cart" data-id="articulo7">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 8 -->
+      <article class="product-card">
+        <img src="../imagenes/" alt="Calcetines Amigos del Oso Polar" class="product-img" />
+        <h3>Calcetines “Amigos del Oso Polar”</h3>
+        <p>7.50 €</p>
+        <button class="btn-add-cart" data-id="articulo8">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 9 -->
+      <article class="product-card">
+        <img src="../imagenes/pegatina coral.jpg" alt="Pegatina Salva los Corales" class="product-img" />
+        <h3>Pegatina “Salva los Corales”</h3>
+        <p>3.00 €</p>
+        <button class="btn-add-cart" data-id="articulo9">Agregar al carrito</button>
+      </article>
+
+      <!-- Producto 10 -->
+      <article class="product-card">
+        <img src="../imagenes/botella.jpg" alt="Botella Agua Limpia para Todos" class="product-img" />
+        <h3>Botella “Agua Limpia para Todos”</h3>
+        <p>22.00 €</p>
+        <button class="btn-add-cart" data-id="articulo10">Agregar al carrito</button>
+      </article>
+
+    </section>
+  </main>
+
+  <script src="../js/controllers/carrito.controller.js"></script>
+</body>
+</html>

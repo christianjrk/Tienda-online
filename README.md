@@ -55,7 +55,7 @@ Este proyecto está desarrollado con **HTML, CSS y JavaScript**, organizando la 
 ## 🚀 Despliegue
 
 Puedes ver la página en línea en el siguiente enlace:  
-👉 [Demo en Netlify](https://tienda-online-1.netlify.app/)  
+👉 (https://tienda-online-1.netlify.app/)  
 
 *(Sustituye el link con tu URL de Netlify cuando lo despliegues)*
 

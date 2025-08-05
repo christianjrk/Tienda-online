@@ -19,55 +19,38 @@ Este proyecto está desarrollado con **HTML, CSS y JavaScript**, organizando la 
 ---
 
 ## 📂 Estructura del Proyecto
+📂 Tienda-online
+ ┣ 📂 css
+ ┃ ┗ styles.css
+ ┣ 📂 imagenes
+ ┣ 📂 js
+ ┃ ┣ 📂 controllers
+ ┃ ┃ ┣ auth.controller.js
+ ┃ ┃ ┣ carrito.controller.js
+ ┃ ┃ ┣ dashboard.controller.js
+ ┃ ┃ ┣ home.controllers.js
+ ┃ ┃ ┣ login.controller.js
+ ┃ ┃ ┣ profile.controller.js
+ ┃ ┃ ┗ register.controller.js
+ ┃ ┣ 📂 models
+ ┃ ┃ ┣ carrito.model.js
+ ┃ ┃ ┣ productos.model.js
+ ┃ ┃ ┗ usuario.model.js
+ ┃ ┣ 📂 redux
+ ┃ ┃ ┣ carrito.slice.js
+ ┃ ┃ ┗ store.js
+ ┃ ┣ 📂 test
+ ┃ ┣ 📂 utils
+ ┃ ┗ script.js
+ ┣ 📂 pages
+ ┃ ┣ carrito.html
+ ┃ ┣ crear-producto.html
+ ┃ ┣ dashboard.html
+ ┃ ┣ form-login.html
+ ┃ ┣ form-register.html
+ ┃ ┗ profile.html
+ ┗ index.html
 
-Tienda-online/
-│
-├── css/
-│ └── styles.css # Estilos globales
-│
-├── imagenes/ # Recursos gráficos (productos y capturas)
-│
-├── js/
-│ ├── controllers/ # Controladores (manejo de lógica y eventos)
-│ │ ├── auth.controller.js
-│ │ ├── carrito.controller.js
-│ │ ├── dashboard.controller.js
-│ │ ├── home.controllers.js
-│ │ ├── login.controller.js
-│ │ ├── profile.controller.js
-│ │ └── register.controller.js
-│ │
-│ ├── models/ # Modelos de datos
-│ │ ├── carrito.model.js
-│ │ ├── productos.model.js
-│ │ └── usuario.model.js
-│ │
-│ ├── redux/ # Estado global con Redux
-│ │ ├── carrito.slice.js
-│ │ └── store.js
-│ │
-│ ├── test/ # Pruebas unitarias
-│ │ └── usuario.model.test.js
-│ │
-│ ├── utils/ # Funciones auxiliares
-│ │ ├── jsStorage.js
-│ │ └── validaciones.js
-│ │
-│ └── script.js # Script principal
-│
-├── pages/ # Páginas HTML
-│ ├── carrito.html
-│ ├── crear-producto.html
-│ ├── dashboard.html
-│ ├── form-login.html
-│ ├── form-register.html
-│ └── profile.html
-│
-├── index.html # Página principal
-├── README.md # Documentación del proyecto
-
-
----
 
 ## 🚀 Despliegue
 

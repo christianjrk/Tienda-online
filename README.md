@@ -17,39 +17,56 @@ Este proyecto está desarrollado con **HTML, CSS y JavaScript**, organizando la 
 - 🎨 **Diseño responsive y amigable**.
 
 ---
-
 ## 📂 Estructura del Proyecto
-📂 Tienda-online
- ┣ 📂 css
- ┃ ┗ styles.css
- ┣ 📂 imagenes
- ┣ 📂 js
- ┃ ┣ 📂 controllers
- ┃ ┃ ┣ auth.controller.js
- ┃ ┃ ┣ carrito.controller.js
- ┃ ┃ ┣ dashboard.controller.js
- ┃ ┃ ┣ home.controllers.js
- ┃ ┃ ┣ login.controller.js
- ┃ ┃ ┣ profile.controller.js
- ┃ ┃ ┗ register.controller.js
- ┃ ┣ 📂 models
- ┃ ┃ ┣ carrito.model.js
- ┃ ┃ ┣ productos.model.js
- ┃ ┃ ┗ usuario.model.js
- ┃ ┣ 📂 redux
- ┃ ┃ ┣ carrito.slice.js
- ┃ ┃ ┗ store.js
- ┃ ┣ 📂 test
- ┃ ┣ 📂 utils
- ┃ ┗ script.js
- ┣ 📂 pages
- ┃ ┣ carrito.html
- ┃ ┣ crear-producto.html
- ┃ ┣ dashboard.html
- ┃ ┣ form-login.html
- ┃ ┣ form-register.html
- ┃ ┗ profile.html
- ┗ index.html
+
+Tienda-online/
+│
+├── css/
+│   └── styles.css
+│
+├── imagenes/
+│
+├── js/
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── carrito.controller.js
+│   │   ├── dashboard.controller.js
+│   │   ├── home.controllers.js
+│   │   ├── login.controller.js
+│   │   ├── profile.controller.js
+│   │   └── register.controller.js
+│   │
+│   ├── models/
+│   │   ├── carrito.model.js
+│   │   ├── productos.model.js
+│   │   └── usuario.model.js
+│   │
+│   ├── redux/
+│   │   ├── carrito.slice.js
+│   │   └── store.js
+│   │
+│   ├── test/
+│   │   ├── carrito.model.test.js
+│   │   ├── productos.model.test.js
+│   │   └── usuario.model.test.js
+│   │
+│   ├── utils/
+│   │   ├── fnStorage.js
+│   │   └── validaciones.js
+│   │
+│   └── script.js
+│
+├── pages/
+│   ├── carrito.html
+│   ├── crear-producto.html
+│   ├── dashboard.html
+│   ├── form-login.html
+│   ├── form-register.html
+│   └── profile.html
+│
+├── index.html
+└── README.md
+
 
 
 ## 🚀 Despliegue
@@ -75,7 +92,7 @@ Puedes ver la página en línea en el siguiente enlace:
 ## 👨‍💻 Autor
 
 Proyecto creado por **Christian Jaramillo Rotavisky**  
-© 2025 Noticias Salvajes. Todos los derechos reservados.
+© 2025 tienda-online. Todos los derechos reservados.
 
 ---
 

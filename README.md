@@ -24,11 +24,15 @@ Tienda-online/
 │
 ├── css/
 │   └── styles.css
+
 │
 ├── imagenes/
+
 │
 ├── js/
+
 │   ├── controllers/
+
 │   │   ├── auth.controller.js
 │   │   ├── carrito.controller.js
 │   │   ├── dashboard.controller.js

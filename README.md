@@ -40,26 +40,32 @@ Tienda-online/
 │   │   ├── login.controller.js
 │   │   ├── profile.controller.js
 │   │   └── register.controller.js
+
 │   │
 │   ├── models/
 │   │   ├── carrito.model.js
 │   │   ├── productos.model.js
 │   │   └── usuario.model.js
+
 │   │
 │   ├── redux/
 │   │   ├── carrito.slice.js
 │   │   └── store.js
+
 │   │
 │   ├── test/
 │   │   ├── carrito.model.test.js
 │   │   ├── productos.model.test.js
 │   │   └── usuario.model.test.js
+
 │   │
 │   ├── utils/
 │   │   ├── fnStorage.js
 │   │   └── validaciones.js
+
 │   │
 │   └── script.js
+
 │
 ├── pages/
 │   ├── carrito.html
@@ -68,9 +74,12 @@ Tienda-online/
 │   ├── form-login.html
 │   ├── form-register.html
 │   └── profile.html
+
 │
 ├── index.html
+
 └── README.md
+
 
 
 

@@ -34,12 +34,19 @@ Tienda-online/
 │   ├── controllers/
 
 │   │   ├── auth.controller.js
+
 │   │   ├── carrito.controller.js
+
 │   │   ├── dashboard.controller.js
+
 │   │   ├── home.controllers.js
+
 │   │   ├── login.controller.js
+
 │   │   ├── profile.controller.js
+
 │   │   └── register.controller.js
+
 
 │   │
 │   ├── models/

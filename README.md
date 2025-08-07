@@ -20,6 +20,7 @@ Este proyecto está desarrollado con **HTML, CSS y JavaScript**, organizando la 
 ## 📂 Estructura del Proyecto
 
 Tienda-online/
+
 │
 ├── css/
 │   └── styles.css
